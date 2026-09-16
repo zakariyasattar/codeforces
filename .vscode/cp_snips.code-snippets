@@ -1,0 +1,61 @@
+{
+    "starter code": {
+        "prefix": "cppstart",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "",
+            "using namespace std;",
+            "using ll = long long;",
+            "",
+            "#define debug(x) cerr << #x << \" = \" << x << endl;",
+            "#define vdebug(a) cerr << #a << \" = \"; for(auto x: a) cerr << x << ' '; cerr << endl;",
+            "",
+            "int main() {",
+            "    int T;",
+            "    cin >> T;",
+            "",
+            "    while(T--) {",
+            "        int n;",
+            "        cin >> n;",
+            "    }",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Basic C++ template"
+    },
+    "load vec": {
+        "prefix": "load_vec",
+        "body": [
+            "vector<int> nums(n);",
+        	"for(int& v : nums) cin >> v;"
+        ],
+        "description": "Basic C++ template"
+    },
+    "node": {
+        "prefix": "node",
+        "body": [
+            "struct Node {",
+            "    int val;",
+            "    Node* left;",
+            "    Node* right;",
+            "",
+            "    Node(int v) : val(v) {",
+            "        left = nullptr;",
+            "        right = nullptr;",
+            "    }",
+            "};"
+        ],
+        "description": "Basic C++ template"
+    },
+    "pair": {
+        "prefix": "pair",
+        "body": [
+            "struct Pair {",
+            "    int x;",
+            "    int y;",
+            "};"
+        ],
+        "description": "Basic C++ template"
+    }
+}
